@@ -28,6 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'SOnarCLoud-Pipeline'
