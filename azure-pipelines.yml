@@ -26,8 +26,8 @@ steps:
     SonarCloud: 'SOnarCLoud-Pipeline'
     organization: 'sonarcloud-nippuntesting'
     scannerMode: 'MSBuild'
-    projectKey: 'Nippun'
-    projectName: 'Nippun'
+    projectKey: 'AZ400Devops'
+    projectName: 'AZ400Devops'
 
 - task: VSBuild@1
   inputs:
